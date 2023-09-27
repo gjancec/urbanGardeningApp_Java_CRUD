@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PovrtnjakController">
+   <children>
+      <BorderPane layoutX="10.0" layoutY="16.0" prefHeight="550.0" prefWidth="950.0" style="-fx-background-color: white;">
+         <left>
+            <VBox prefHeight="533.0" prefWidth="296.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="45.0" prefWidth="296.0">
+                     <children>
+                        <MenuBar>
+                           <menus>
+                              <Menu mnemonicParsing="false" text="Cvjetnjak">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#showUnosCvijecaScreen" text="Cvijeće" />
+                                    <MenuItem mnemonicParsing="false" onAction="#showPromjeneScreen" text="Promjene" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="Povrtnjak">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#showPovrtnjakScreen" text="Povrće" />
+                                    <MenuItem mnemonicParsing="false" onAction="#showPromjeneScreen" text="Promjene" />
+                                 </items>
+                              </Menu>
+                           </menus>
+                        </MenuBar>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="70.0" prefWidth="296.0">
+                     <children>
+                        <Label text="POVRĆE" textFill="#8d9f0d">
+                           <HBox.margin>
+                              <Insets left="109.0" top="14.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="296.0">
+                     <children>
+                        <Label text="Naziv povrća">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="nazivTextField" stylesheets="@../../../styles.css">
+                           <HBox.margin>
+                              <Insets left="17.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="42.0" prefWidth="296.0">
+                     <children>
+                        <HBox prefHeight="40.0" prefWidth="296.0">
+                           <children>
+                              <Label text="Sjetva/sadnja">
+                                 <HBox.margin>
+                                    <Insets left="15.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="mjesecSjetveTextField" stylesheets="@../../../styles.css">
+                                 <HBox.margin>
+                                    <Insets left="15.0" />
+                                 </HBox.margin>
+                              </TextField>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="296.0">
+                     <children>
+                        <Label text="Mjeseci berbe">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="mjeseciBerbeTextField" stylesheets="@../../../styles.css">
+                           <HBox.margin>
+                              <Insets left="13.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="296.0">
+                     <children>
+                        <HBox prefHeight="46.0" prefWidth="296.0">
+                           <children>
+                              <Label text="Mjesto sadnje">
+                                 <HBox.margin>
+                                    <Insets left="15.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="mjestoTextField" stylesheets="@../../../styles.css">
+                                 <HBox.margin>
+                                    <Insets left="12.0" />
+                                 </HBox.margin>
+                              </TextField>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#pretraziPovrce" stylesheets="@../../../styles.css" text="Pretraži">
+                           <HBox.margin>
+                              <Insets left="33.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#spremiPovrce" stylesheets="@../../../styles.css" text="Input">
+                           <HBox.margin>
+                              <Insets left="9.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#updatePovrtnjak" stylesheets="@../../../styles.css" text="Update">
+                           <HBox.margin>
+                              <Insets left="8.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#obrisiPovrce" stylesheets="@../../../styles.css" text="Delete">
+                           <HBox.margin>
+                              <Insets left="8.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="23.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="50.0" prefWidth="654.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#showSjetveniKalendarScreen" text="Sjetveni kalendar">
+                           <HBox.margin>
+                              <Insets left="458.0" top="9.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#showPocetnaScreen" text="Home">
+                           <HBox.margin>
+                              <Insets left="12.0" top="9.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="339.0" prefWidth="654.0">
+                     <children>
+                        <TableView fx:id="povrceTableView" onMouseClicked="#getSelected" prefHeight="445.0" prefWidth="602.0" stylesheets="@../../../styles.css">
+                           <columns>
+                              <TableColumn fx:id="nazivTableColumn" prefWidth="98.4000244140625" text="Naziv" />
+                              <TableColumn fx:id="mjesecSjetveTableColumn" prefWidth="92.0" text="Mjesec sjetve" />
+                              <TableColumn fx:id="mjeseciBerbeTableColumn" prefWidth="120.0" text="Mjeseci berbe" />
+                              <TableColumn fx:id="mjestoTableColumn" prefWidth="115.199951171875" text="Mjesto sadnje" />
+                           </columns>
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                           <styleClass>
+                              <String fx:value="table-view" />
+                              <String fx:value="column-header-background" />
+                              <String fx:value="filler" />
+                           </styleClass>
+                        </TableView>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <HBox prefHeight="70.0" prefWidth="950.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="62.0" prefWidth="200.0">
+                     <HBox.margin>
+                        <Insets bottom="13.0" />
+                     </HBox.margin>
+                  </HBox>
+               </children></HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

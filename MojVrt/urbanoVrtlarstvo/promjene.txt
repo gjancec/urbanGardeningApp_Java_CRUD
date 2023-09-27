@@ -1,0 +1,2 @@
+Jun 06, 2023 5:28:18 AM com.example.demo.UnosCvijecaController initialize
+INFO: A message logged to the file

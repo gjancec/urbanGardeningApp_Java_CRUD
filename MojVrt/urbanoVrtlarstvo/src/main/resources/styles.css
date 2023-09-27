@@ -1,0 +1,65 @@
+
+.background-picture {
+
+    -fx-background-size: 100% 100%;
+    -fx-background-image: url("pocetna.jpg");
+
+}
+
+
+
+.button{
+    -fx-background-color:  #B5CA8D;
+    -fx-background-radius:  7px;
+    -fx-text-fill: brown;
+}
+
+
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:   #B5CA8D;
+}
+.table-view .column-header .label{
+    -fx-text-fill: brown;
+}
+.text-field{
+    -fx-border-color: #8D9F0D;
+    -fx-border-radius:  7px;
+    -fx-background-radius: 7px;
+}
+.combo-box{
+    -fx-border-color: #8D9F0D;
+    -fx-border-radius:  7px;
+    -fx-background-radius: 7px;
+}
+
+#pocetnaButtonCvjetnjak{
+    -fx-background-radius:  7px;
+    -fx-background-color:  #413D20;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-text-fill:  #DC44CA;
+    -fx-font-weight: bold;
+}
+#pocetnaButtonVertikalanVrt{
+    -fx-background-radius:  7px;
+    -fx-background-color:  #413D20;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-text-fill:  #DC44CA;
+    -fx-font-weight: bold;
+
+}
+#pocetnaButtonPovrtnjak{
+    -fx-background-radius:  7px;
+    -fx-background-color:  #413D20;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-text-fill:  #DC44CA;
+    -fx-font-weight: bold;
+}
+.text-area{
+    -fx-border-color: #8D9F0D;
+
+}

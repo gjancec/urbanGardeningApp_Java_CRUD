@@ -1,0 +1,156 @@
+Jun 18, 2023 5:29:26 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: ddd spremljen.
+Jun 18, 2023 5:31:38 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 18, 2023 5:40:52 AM com.example.demo.UnosCvijecaController updateCvijet
+INFO:  Izmjenjen MJESECI CVATNJE cvijeta IZ ss U gg
+Jun 18, 2023 5:42:58 AM com.example.demo.UnosCvijecaController updateCvijet
+INFO: Izmjenjena BOJA cvijeta IZ dd U bijela
+Jun 18, 2023 6:57:36 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 18, 2023 8:04:31 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet mali je obrisan.
+Jun 18, 2023 10:39:06 AM com.example.demo.PovrtnjakController spremiPovrce
+INFO: Povrce: Tikvica spremljen.
+Jun 20, 2023 5:24:09 AM com.example.demo.PovrtnjakController spremiPovrce
+INFO: Povrce: Krastavac spremljen.
+Jun 20, 2023 5:27:23 AM com.example.demo.PovrtnjakController updatePovrtnjak
+INFO:  Izmjenjen MJESEC SJETVE povrca IZ svibanj U lipanj
+Jun 20, 2023 5:57:30 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: Ruza spremljen.
+Jun 21, 2023 5:39:29 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: Kadifica spremljen.
+Jun 21, 2023 6:42:00 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: Ljubicica spremljen.
+Jun 21, 2023 6:50:42 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: ff spremljen.
+Jun 21, 2023 6:59:49 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: mm spremljen.
+Jun 22, 2023 4:54:23 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: hh spremljen.
+Jun 22, 2023 5:01:31 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet hh je obrisan.
+Jun 22, 2023 5:01:42 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 5:14:03 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 5:14:09 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet mm je obrisan.
+Jun 22, 2023 5:14:22 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 5:51:57 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 5:54:20 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 5:54:32 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 6:04:57 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 6:05:05 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 6:35:07 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 6:39:05 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 6:41:25 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 6:41:33 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 6:48:21 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 6:48:31 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 6:55:10 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 6:55:18 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:07:39 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:07:49 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:09:01 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:09:08 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:12:38 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:12:45 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:15:36 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:15:45 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:34:15 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:34:23 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:36:39 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:36:47 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:39:14 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:39:22 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: hh spremljen.
+Jun 22, 2023 7:40:57 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet hh je obrisan.
+Jun 22, 2023 7:40:59 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet ff je obrisan.
+Jun 22, 2023 7:41:10 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:41:23 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: mm spremljen.
+Jun 22, 2023 7:43:10 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet mm je obrisan.
+Jun 22, 2023 7:43:18 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: mm spremljen.
+Jun 22, 2023 7:44:36 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 22, 2023 7:44:54 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 22, 2023 7:45:37 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: tt spremljen.
+Jun 23, 2023 7:45:15 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet tt je obrisan.
+Jun 23, 2023 7:45:17 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 23, 2023 7:45:19 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet mm je obrisan.
+Jun 23, 2023 7:45:33 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 23, 2023 7:52:25 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 23, 2023 7:52:32 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 23, 2023 7:53:39 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: ttt spremljen.
+Jun 23, 2023 7:55:31 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: mm spremljen.
+Jun 23, 2023 9:41:25 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet mm je obrisan.
+Jun 23, 2023 9:41:27 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet ttt je obrisan.
+Jun 23, 2023 9:41:29 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 23, 2023 9:41:37 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: tt spremljen.
+Jun 23, 2023 9:43:24 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 23, 2023 9:45:44 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 23, 2023 9:45:49 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet tt je obrisan.
+Jun 23, 2023 9:45:56 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: tt spremljen.
+Jun 23, 2023 9:46:05 AM com.example.demo.UnosCvijecaController spremiCvijet
+INFO: Cvijet: gg spremljen.
+Jun 23, 2023 10:11:10 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 23, 2023 10:11:11 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet tt je obrisan.
+Jun 23, 2023 10:21:53 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet tt je obrisan.
+Jun 23, 2023 10:22:03 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet gg je obrisan.
+Jun 23, 2023 10:25:08 AM com.example.demo.UnosCvijecaController obrisiCvijet
+INFO: Cvijet ddd je obrisan.
