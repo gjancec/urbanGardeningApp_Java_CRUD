@@ -1,4 +1,4 @@
-# myGarden (mojVrt) application
+# myGarden application
 
 Application for urban gardening. Keeping a diary of plants (flowers, vegetables) found in the urban garden with their characteristics (flower color, flowering time, height...). Planning the place and time of sowing and planting.
 
